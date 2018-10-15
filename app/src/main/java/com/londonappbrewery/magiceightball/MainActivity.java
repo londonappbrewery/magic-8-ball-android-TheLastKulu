@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // Change ball image
                 Random rand = new Random();
                 int number = rand.nextInt(5);
                 ball.setImageResource(ballImgArray[number]);
